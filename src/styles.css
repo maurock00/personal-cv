@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&family=Space+Grotesk:wght@300&display=swap");
+
+html,
+body {
+  background: #406790;
+}
+.container-fluid {
+  font-family: "Varela Round", sans-serif;
+}
+
+.profile {
+  margin-top: 15%;
+  text-align: center;
+}
+
+.td-left {
+  text-align: left;
+  vertical-align: middle !important;
+}
+
+.td-right {
+  text-align: right;
+  vertical-align: middle !important;
+}
+
+.name {
+  color: #e9ecef;
+}
+
+.customTabPane {
+  background: #e9ecef;
+  box-shadow: 0px 0px 10px 0px;
+  margin-top: 5%;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-link.active {
+  background: #212529 !important;
+  color: white !important;
+  border-color: #212529 !important;
+  border-radius: 0 !important;
+}
+
+#app {
+  background: #406790;
+}
+
+.progress-bar {
+  background: #85befa !important;
+}
+
+.profileImage {
+  box-shadow: 0px 0px 10px 3px;
+  border-radius: 50% !important;
+  width: 30%;
+  border-style: solid;
+  margin-bottom: 2%;
+}
+
+.skills {
+  color: white;
+}
+
+.skills > .row {
+  margin-top: 3%;
+}
+
+.table td {
+  color: #dee2e6;
+}
+
+.experience,
+.education {
+  color: #e9ecef;
+}
+
+.education > .row,
+.experience > .row {
+  padding: 1rem;
+}
+
+.osContrib {
+  color: #e9ecef;
+}
+
+.about {
+  color: #e9ecef;
+}
+
+.about > .row {
+  margin-left: 20%;
+  padding: 1rem;
+}
+
+.githubProjects {
+  color: #e9ecef;
+}
+
+.tab-content {
+  background-color: #143455;
+  padding-left: 2rem;
+}
+
+a.sm-icon {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.sm-icon:hover {
+  transform: translateY(-2px);
+  color: #143455;
+}
+
+a.sm-icon {
+  color: white;
+}
