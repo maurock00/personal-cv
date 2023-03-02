@@ -102,6 +102,7 @@ body {
 .tab-content {
   background-color: #143455;
   padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 a.sm-icon {
